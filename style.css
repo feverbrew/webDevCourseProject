@@ -23,7 +23,7 @@ img {
 Need to finish this to make text gray and no underline!
 */
 .bars {
-    font: bold;
+    font-weight: 1000;
     font-size: x-large;
     height: 53px;
     display: flex;
@@ -31,6 +31,8 @@ Need to finish this to make text gray and no underline!
     text-align: left;
     padding: 15px;
     padding-top: 30px;
+    color: gray;
+    text-decoration: none;
 }
 .bar1 {
     background-color: lightyellow;
